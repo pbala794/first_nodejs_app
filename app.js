@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
     res.render('index', {
-        title: "Dodaj nowego padawana: "    
+        title: "Dodaj nowego padawana:"    
     });
 });
 
